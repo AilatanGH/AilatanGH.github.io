@@ -1,0 +1,98 @@
+
+/* GENERAL */
+
+body{
+  font-family: Lato;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+  height: 100px;
+}
+
+#logo {
+  width: 75px;
+  float: left;
+  margin-left: 50px;
+}
+
+a.mail {
+  text-decoration: none;
+  float:right;
+  font-weight: bold;
+  color: black;
+  margin: 30px 50px 0 0;
+}
+
+#container{
+  margin:50px 70px 50px 70px;
+}
+.name {
+  font-size: 80px;
+  font-family: Playfair;
+  text-align: center;
+}
+
+/* BIOGRAFÍA */
+
+#biography{
+  width: 100%;
+  height: 400px;
+  margin-top: 100px;
+}
+
+.photo {
+  width: 40%;
+  float:left;
+  margin-left: 50px;
+}
+
+p{
+  width: 45%;
+  float: right;
+  margin-right: 50px;
+}
+
+.background {
+  width: 100%;
+}
+
+
+/* TABLA */
+
+table {
+  width: 50%;
+  text-align: center;
+}
+
+/* FOOTER */
+
+footer{
+  width: 100%;
+  height: 40px;
+  margin: 40px 0 40px 0;
+}
+
+.copy{
+  width: 30%;
+  float:left;
+  margin-left: 50px;
+}
+
+.socials{
+  width: 40%;
+  float: right;
+  margin-right: 50px
+}
+
+.icons{
+  display: inline;
+  float: right;
+  padding-left: 20px;
+}
+
+.icons img{
+  width: 25px;
+}
