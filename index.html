@@ -1,75 +1,118 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Página personal | Natalia Guaita</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:400,900" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+<head>
+  <meta charset="utf-8">
+  <title>Web personal Front-end Natalia Guaita</title>
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:400,700|Dosis:400,700" rel="stylesheet">
+</head>
 
-  </head>
+<body>
 
-  <body>
+  <!-- image block -->
+  <div class="left">
+    <div class="personalinfo">
 
-    <header>
-          <img id="logo" src="img/mifavicon.png" alt="logo Natalia Guaita">
-          <a class="mail" href="mailito:naguher@gmail.com">naguher@gmail.com</a>
-    </header>
+      <h1>GRAPHIC DESIGNER & FRONTED</h1>
 
-    <div id="container">
+      <p>Me llamo Natalia, soy<strong> diseñadora gráfica, Adalaber</strong> y quiero reinventarme como <strong>Frontend</strong></p>
 
-        <h1 class="name">Natalia Guaita</h1>
+      <ul class="socials">
 
-        <div id="biography">
+        <li class="icons"><a href="https://www.behance.net/naguherf746"><img src="img/iconos/behance.png" alt="Icono red social Behance"></a></li>
+        <li class="icons"><a href="https://github.com/AilatanGH"><img src="img/iconos/github.png" alt="Icono red social Github"></a></li>
+        <li class="icons"><a href="https://twitter.com/Aila_Tan"><img src="img/iconos/twitter.png" alt="Icono red social Twitter"></a></li>
 
-          <img class="photo" src="img/me.jpg" alt="fotografía de Natalia Guaita">
-          <p class="text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
-            cepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
-          <p class="text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Ex
-            cepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+      </ul>
+    </div>
+  </div>
 
-        </div>
+  <!-- information block -->
+  <div class="rigth">
+    <div class="presentation">
+      <h3>HOLA!</h3>
+      <p>
+        Soy diseñadora gráfica y técnico audiovisual, y quiero reinventarme. Estoy haciendo un curso de Frontend con Adalab y Fundación Telefónica.
+      </p>
+
+      <p>
+      Esta es mi primera práctica del curso, crear una página personal, no está acabada aún, iré añadiendo más información y perfilándola a lo largo del curso, mostraré las prácticas que vaya realizando y así podáis conocermeå un poquito más.
+      </p>
 
     </div>
 
-      <table>
+    <div class="presentation">
 
-        <thead>
+      <h3>HABILIDADES</h3>
+
+      <table>
+        <thead class="name">
           <tr>
-            <th></th>
-            <th> SKILLS</th>
-            <th></th>
-            <th>HOBBIES</th>
+            <th>SKILLS</th>
+            <th>%</th>
           </tr>
         </thead>
 
         <tbody>
           <tr>
+            <td class="skills">HTML5</td>
+            <td>
+              <div class="bar one">20</div>
+            </td>
+          </tr>
 
-            <td><img width="50%"src="img/photo.png" alt=""></td>
-            <td>CSS<br/> HTML5 <br/> Invision </td>
-            <td><img width="50%"src="img/sitemap.png" alt=""></td>
-            <td>El arte <br> Fotografía <br> La gastronomía </td>
+          <tr>
+            <td class="skills">CSS</td>
+            <td>
+              <div class="bar one">20</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="skills">JAVASCRIPT</td>
+            <td>
+              <div class="bar two">5</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="skills">GRAPHIC DESIGN</td>
+            <td>
+              <div class="bar three">75</div>
+            </td>
+          </tr>
+
+          <tr>
+            <td class="skills">WEB DESIGN</td>
+            <td>
+              <div class="bar four">50</div>
+            </td>
           </tr>
 
         </tbody>
       </table>
+
     </div>
 
-    <footer>
+    <div class="presentation sponsor">
 
-      <p class="copy">@ 2017 Natalia Guaita</p>
+      <h3>AGRADECIMIENTOS</h3>
+      <p>Gracias a ADALAB por darme esta oportunidad de reinventarme.</p>
+      <img src="http://adalab.es/wp-content/uploads/2016/08/logo_adalab_80px.png" alt="Logo Adalab">
 
-      <ul class="socials">
-        <li class="icons"><a href="#"><img src="img/iconos/behance-logo.png" alt="icono de la red social behance"></a></li>
-        <li class="icons"><a href="#"><img src="img/iconos/twitter-logo.png" alt="icono de la red social behance"></a></li>
-        <li class="icons"><a href="#"><img src="img/iconos/github-logo.png" alt="icono de la red social behance"></a></li>
-      </ul>
+    </div>
 
-    </footer>
+    <div class="presentation">
 
-  </body>
+      <h3>CONTACTO</h3>
+      <p>
+          <span> Email: </span><a target="_blank" href="mailto:naguher@gmail.com"> naguher@gmail.com </a>
+          <br>
+          <span> Phone: </span><a target="_blank" href="tel:+34639505245"> 639 50 52 45 </a>
+      </p>
+
+    </div>
+  </div>
+
+</body>
 </html>
