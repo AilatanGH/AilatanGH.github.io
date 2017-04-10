@@ -61,9 +61,7 @@ html, body {
 
 .rigth {
   width: 50%;
-  height: 100%;
   float: right;
-  overflow: scroll;
 }
 
 .presentation {
