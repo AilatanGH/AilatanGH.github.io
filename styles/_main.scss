@@ -1,0 +1,33 @@
+//
+// @mixin responsive($breakpoint) {
+//   @media only #{$media} and ($feature: $breakpoint) {
+//     @content;
+//   }
+// }
+
+.container {
+  display: flex;
+  flex-flow: column;
+  @media only screen and (min-width: 468px) {
+    display: flex;
+    flex-flow: row;
+  }
+}
+
+/* rigth block */
+
+.rigth {
+  width: 100%;
+  position: relative;
+  @media only screen and (min-width: 480px) {
+    width: 50%;
+    left: 35%;
+    width: 65%;
+  }
+}
+
+.content {
+  width: 85%;
+  margin: 80px auto;
+  padding-bottom: 50px;
+}

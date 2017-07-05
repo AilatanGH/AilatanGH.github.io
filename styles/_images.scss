@@ -1,0 +1,29 @@
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.icons {
+  color: #fff;
+}
+
+.img-svg {
+  width: 25%;
+  margin: 15px 0;
+  color: #61489a;
+  @media only screen and (min-width: 480px) {
+    width: 35%;
+  }
+}
+
+.img-sponsor {
+  width: 25%;
+  img {
+    width: 100%;
+  }
+}
+
+.box-work img {
+  width: 100%;
+}

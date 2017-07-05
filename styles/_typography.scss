@@ -1,0 +1,60 @@
+/* TYPOGRAPHY */
+
+body {
+  font-family: "open sans";
+  font-weight: normal;
+}
+
+.title-info {
+  margin: 30px auto;
+  color: white;
+  line-height: 1.3em;
+}
+
+.main-title {
+  font-size: 36px;
+  color: #fff;
+}
+
+.title-section {
+  margin: 30px auto;
+  text-transform: uppercase;
+  font-family: "Comfortaa";
+  font-size: 30px;
+  color: #61489a;
+}
+
+.title-resume {
+  font-family: "comfortaa";
+  font-size: 20px;
+  font-weight: bold;
+  color: #61489a;
+}
+
+.personalinfo h1 {
+  @extend .title-info;
+    font-family: "Comfortaa";
+    font-weight: 600;
+    font-size: 36px;
+}
+
+.personalinfo p {
+  @extend .title-info;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.Highlight {
+  color: #61489a;
+  font-weight: bold;
+}
+
+.contact {
+  font-size: 25px;
+  line-height: 2em;
+  text-align: center;
+  margin: 10px 0;
+  a {
+    color: #61489a;
+  }
+}
