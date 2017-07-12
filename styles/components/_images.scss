@@ -5,15 +5,15 @@
 }
 
 .icons {
-  color: #fff;
+  color: $color-primary;
 }
 
 .img-svg {
-  width: 25%;
+  width: 15%;
   margin: 15px 0;
-  color: #61489a;
+  color: $color-secondary;
   @media only screen and (min-width: 480px) {
-    width: 35%;
+    width: 25%;
   }
 }
 

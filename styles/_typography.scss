@@ -1,60 +1,60 @@
 /* TYPOGRAPHY */
 
 body {
-  font-family: "open sans";
+  font-family: $font-text;
   font-weight: normal;
 }
 
 .title-info {
   margin: 30px auto;
-  color: white;
+  color: $color-primary;
   line-height: 1.3em;
 }
 
 .main-title {
-  font-size: 36px;
-  color: #fff;
+  font-size: $font-xxl;
+  color: $color-primary;
 }
 
 .title-section {
   margin: 30px auto;
   text-transform: uppercase;
-  font-family: "Comfortaa";
-  font-size: 30px;
-  color: #61489a;
+  font-family:$font-title;
+  font-size: $font-xl;
+  color: $color-secondary;
 }
 
 .title-resume {
-  font-family: "comfortaa";
-  font-size: 20px;
+  font-family:$font-title;
+  font-size: $font-l;
   font-weight: bold;
-  color: #61489a;
+  color: $color-secondary;
 }
 
 .personalinfo h1 {
   @extend .title-info;
-    font-family: "Comfortaa";
+    font-family:$font-title;
     font-weight: 600;
-    font-size: 36px;
+    font-size: $font-xxl;
 }
 
 .personalinfo p {
   @extend .title-info;
   font-weight: 300;
-  font-size: 20px;
+  font-size: $font-m;
 }
 
 .Highlight {
-  color: #61489a;
+  color: $color-secondary;
   font-weight: bold;
 }
 
 .contact {
-  font-size: 25px;
+  font-size: $font-l;
   line-height: 2em;
   text-align: center;
   margin: 10px 0;
   a {
-    color: #61489a;
+    color: $color-secondary;
   }
 }

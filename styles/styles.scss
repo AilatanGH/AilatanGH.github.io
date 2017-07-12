@@ -1,12 +1,12 @@
-@import "typography";
-@import "header";
-@import "aside";
-@import "images";
-@import "main";
-@import "table";
-@import "footer";
-@import "portfolio";
-@import "resume";
-@import "general";
+
 @import "settings";
-@import "helpers";
+@import "layouts/aside",
+        "layouts/main",
+        "layouts/footer";
+@import "components/images",
+        "components/table";
+@import "pages/portfolio",
+        "pages/resume";
+@import "general",
+        "typography",
+        "helpers";

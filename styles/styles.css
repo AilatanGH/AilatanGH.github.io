@@ -1,51 +1,8 @@
-/* TYPOGRAPHY */
-body {
-  font-family: "open sans";
-  font-weight: normal; }
-
-.title-info, .personalinfo h1, .personalinfo p {
-  margin: 30px auto;
-  color: white;
-  line-height: 1.3em; }
-
-.main-title {
-  font-size: 36px;
-  color: #fff; }
-
-.title-section {
-  margin: 30px auto;
-  text-transform: uppercase;
-  font-family: "Comfortaa";
-  font-size: 30px;
-  color: #61489a; }
-
-.title-resume {
-  font-family: "comfortaa";
-  font-size: 20px;
-  font-weight: bold;
-  color: #61489a; }
-
-.personalinfo h1 {
-  font-family: "Comfortaa";
-  font-weight: 600;
-  font-size: 36px; }
-
-.personalinfo p {
-  font-weight: 300;
-  font-size: 20px; }
-
-.Highlight {
-  color: #61489a;
-  font-weight: bold; }
-
-.contact {
-  font-size: 25px;
-  line-height: 2em;
-  text-align: center;
-  margin: 10px 0; }
-  .contact a {
-    color: #61489a; }
-
+/* FONT FAMILY */
+/* FONT SIZE */
+/* COLOURS */
+/* SCREEN */
+/* BREAKPOINTS*/
 /* left block */
 .left {
   width: 100%;
@@ -69,36 +26,6 @@ body {
   @media only screen and (min-width: 480px) {
     .personalinfo {
       margin: 250px auto; } }
-
-.socials {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-pack: distribute;
-      justify-content: space-around; }
-
-.icons {
-  color: #fff; }
-
-.img-svg {
-  width: 25%;
-  margin: 15px 0;
-  color: #61489a; }
-  @media only screen and (min-width: 480px) {
-    .img-svg {
-      width: 35%; } }
-
-.img-sponsor {
-  width: 25%; }
-  .img-sponsor img {
-    width: 100%; }
-
-.box-work img {
-  width: 100%; }
 
 .container {
   display: -webkit-box;
@@ -133,6 +60,63 @@ body {
   margin: 80px auto;
   padding-bottom: 50px; }
 
+.sponsor {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .sponsor p {
+    font-size: 16px; }
+  @media only screen and (min-width: 480px) {
+    .sponsor {
+      width: 65%;
+      margin-left: 35%; } }
+
+.text-sponsor {
+  width: 60%; }
+
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around; }
+
+.icons {
+  color: #fff; }
+
+.img-svg {
+  width: 15%;
+  margin: 15px 0;
+  color: #61489a; }
+  @media only screen and (min-width: 480px) {
+    .img-svg {
+      width: 25%; } }
+
+.img-sponsor {
+  width: 25%; }
+  .img-sponsor img {
+    width: 100%; }
+
+.box-work img {
+  width: 100%; }
+
 .content table {
   width: 100%; }
 
@@ -153,7 +137,7 @@ body {
 .bar {
   background-color: #61489a;
   text-align: center;
-  color: white;
+  color: #fff;
   padding: 5px;
   margin-left: 10px;
   margin-bottom: 10px; }
@@ -166,33 +150,6 @@ body {
 
 .three {
   width: 75%; }
-
-.sponsor {
-  width: 100%;
-  height: 50px;
-  padding: 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  .sponsor p {
-    font-size: 15px; }
-  @media only screen and (min-width: 480px) {
-    .sponsor {
-      width: 65%;
-      margin-left: 35%; } }
-
-.text-sponsor {
-  width: 60%; }
 
 .portfolio {
   width: 100%; }
@@ -275,11 +232,52 @@ a {
   text-decoration: none;
   cursor: pointer; }
 
-/* FONT FAMILY */
-/* FONT SIZE */
-/* COLOURS */
-/* WIDTH SIZE */
-/* SCREEN */
-/* BREAKPOINTS*/
+/* TYPOGRAPHY */
+body {
+  font-family: "Open sans";
+  font-weight: normal; }
+
+.title-info, .personalinfo h1, .personalinfo p {
+  margin: 30px auto;
+  color: #fff;
+  line-height: 1.3em; }
+
+.main-title {
+  font-size: 36px;
+  color: #fff; }
+
+.title-section {
+  margin: 30px auto;
+  text-transform: uppercase;
+  font-family: "Comfortaa";
+  font-size: 30px;
+  color: #61489a; }
+
+.title-resume {
+  font-family: "Comfortaa";
+  font-size: 26px;
+  font-weight: bold;
+  color: #61489a; }
+
+.personalinfo h1 {
+  font-family: "Comfortaa";
+  font-weight: 600;
+  font-size: 36px; }
+
+.personalinfo p {
+  font-weight: 300;
+  font-size: 20px; }
+
+.Highlight {
+  color: #61489a;
+  font-weight: bold; }
+
+.contact {
+  font-size: 26px;
+  line-height: 2em;
+  text-align: center;
+  margin: 10px 0; }
+  .contact a {
+    color: #61489a; }
 
 /*# sourceMappingURL=styles.css.map */
